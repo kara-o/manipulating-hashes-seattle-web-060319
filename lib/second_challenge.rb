@@ -6,7 +6,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.values
+  groceries.each do |food_group, list|
+    new_array = []
+    new_array.concat(groceries[])
 
   
 
