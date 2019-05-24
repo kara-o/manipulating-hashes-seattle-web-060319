@@ -8,7 +8,10 @@ def second_challenge
 
   groceries.each do |food_group, list|
     new_array = []
-    new_array.concat(groceries[])
+    new_array.concat(groceries[food_group])
+  end
+  
+    new_array
 
   
 
